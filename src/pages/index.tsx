@@ -23,6 +23,7 @@ export  const getServerSideProps: GetServerSideProps = async (context) => {
   const apiUrl = `${origin}/api/city`;
   const {data} = await Axios.get(apiUrl);
   
+  
 
   return {
     props: {
